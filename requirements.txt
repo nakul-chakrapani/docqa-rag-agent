@@ -1,0 +1,28 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+pydantic==2.9.0
+
+# Document Parsing
+PyMuPDF==1.24.0
+pdfplumber==0.11.0
+python-docx==1.1.0
+
+# Embeddings & Vector DB
+openai==1.50.0
+qdrant-client==1.11.0
+sentence-transformers==3.1.0
+
+# BM25 & Re-ranking
+rank-bm25==0.2.2
+cohere==5.9.0
+numpy==1.26.0
+
+# UI & Utilities
+streamlit==1.38.0
+requests==2.32.0
+tiktoken==0.7.0
+tqdm==4.66.0
+loguru==0.7.0
