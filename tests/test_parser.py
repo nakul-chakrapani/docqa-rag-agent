@@ -12,4 +12,4 @@ print(f"Tables: {sum(1 for b in doc.blocks if b.block_type == BlockType.TABLE)}"
 for block in doc.blocks:
     # Print blocks from specific page
     if block.page_number == 10:
-        print(f"[{block.block_type.value}] p.{block.page_number}: {block.content[:80]}...")
+        print(f"[{block.block_type.value}] sec.{block.section_title} p.{block.page_number}: {block.content[:80]}...")
